@@ -1,5 +1,74 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    padding: 0;
+
+    
+}
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.container{
+   max-width: 1140px;
+   
+   padding: 0 10px;
+   
+
+   
+}
+.wrap{
+    height: 100%;
+     background: var(--dark-background, #181818);
+}
+
+
+.logo{
+    width: 186px;
+    height: 58px;
+    background: url(<path-to-image>), rgb(12, 12, 12) 50% / contain no-repeat;
+}
+
+
+.nav-link-hero{
+    color: var(--light-text, #FFF);
+text-align: center;
+
+/* Link */
+font-family: Graphik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.2px;
+background: none;
+border: none;
+display: flex;
+padding: 10px;
+align-items: center;
+ gap: 10px
+
+
+    
+}
+.btn-hero{
+    color: var(--light-background, #FFF);
+
+    /* Button */
+    font-family: Graphik;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 147.059% */
+    letter-spacing: 0.2px;
+    border: none;
+    background: none;
+
+}
+@media screen  and (max-width: 743px){
+    .nav-link-hero{
+        display: none;
+    }
+    
 }
